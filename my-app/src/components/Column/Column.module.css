@@ -1,0 +1,83 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: white;
+  }
+  
+  .leftview{
+    margin-left: 0px;
+    display: flex;
+    height: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    /* background-color: white */
+  }
+  
+  .column .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: transparent;
+  }
+  .name_label {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+  
+  }
+  
+  
+  
+  .heading {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .icon_buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  /* For the FeatureRequestCard title */
+  .card_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style the title container */
+  .card_title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card_title img {
+    margin-right: 10px; /* Space between the icon and title */
+  }
+  
+  .card_title span {
+    font-size: 16px; /* Adjust title font size */
+    font-weight: bold; /* Make title bold */
+  }
+  
+  /* Add hover effect for icons */
+  .icon:hover {
+    opacity: 0.7;
+  }
+  
+  .dot {
+    display: flex;
+    align-items: center;
+  }
+  
